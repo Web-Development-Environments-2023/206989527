@@ -1,7 +1,25 @@
 #menu
 {
+	display: flex;
+	flex-direction: row;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 40px;;
+	font-size: larger;
+	background: rgb(210, 45, 45);
+	margin-right: 20px;
+}
+body {
+	/* background: url("https://www.seekpng.com/png/full/54-542616_messi-logo-logo-de-lionel-messi.png"); */
+	background-color: whitesmoke;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1.S1{
+	position: relative;
+	left:600px;
+}
+h1.B1{
+	position: relative;
+	left: 500px;
 }
