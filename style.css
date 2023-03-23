@@ -27,15 +27,15 @@ h1.S1{
 	font-size: 30px;
 	/* font-size: x-large; */
 }
-h1.B1{
+h2.B1{
 	position: relative;
 	text-align: center;
 }
-h1.D1{
+h2.D1{
 	position: relative;
 	text-align: center;
 }
-h1.C1{
+h2.C1{
 	position:relative;
 	text-align: center;
 	width: 100%;
@@ -43,4 +43,11 @@ h1.C1{
 h1.L1{
 	position: relative;
 	text-align: center;	
+}
+h1::before,
+h1::after{
+	display: inline-block;
+    content: "";
+    border-top: 5px solid rgb(61, 117, 187);
+    width: 100%;
 }
