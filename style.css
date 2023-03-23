@@ -1,13 +1,19 @@
 #menu
 {
-	display: flex;
-	flex-direction: row;
+	/* display: flex;
+	flex-direction: row; */
 	position: fixed;
 	width: 100%;
 	height: 40px;;
-	font-size: larger;
-	background: rgb(210, 45, 45);
-	margin-right: 20px;
+	font-size: 15px;
+	font-style: oblique;
+	font-weight: bold;
+	background: rgb(61, 117, 187);
+	text-align: center;
+}
+#menu a{
+	text-align: center;
+	padding: 30px 15px;
 }
 body {
 	/* background: url("https://www.seekpng.com/png/full/54-542616_messi-logo-logo-de-lionel-messi.png"); */
@@ -17,9 +23,24 @@ body {
 }
 h1.S1{
 	position: relative;
-	left:600px;
+	text-align: center;
+	font-size: 30px;
+	/* font-size: x-large; */
 }
 h1.B1{
 	position: relative;
-	left: 500px;
+	text-align: center;
+}
+h1.D1{
+	position: relative;
+	text-align: center;
+}
+h1.C1{
+	position:relative;
+	text-align: center;
+	width: 100%;
+}
+h1.L1{
+	position: relative;
+	text-align: center;	
 }
